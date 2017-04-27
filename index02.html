@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Leibown</title>
+    <script src="jquery-3.2.1.min.js"></script>
     <link href="style02.css" rel="stylesheet" type="text/css">
+    <script src="Contacts.js"></script>
 </head>
 <body>
 <div class="container">
@@ -11,17 +13,19 @@
         <div class="head-container">
             <a><img src="qlip.png" class="icon"></a>
             <div class="nav">
-                <a class="nav-item" href="#">ABOUT</a>
-                <a class="nav-item" href="#">PORTFOLIO</a>
-                <a class="nav-item" href="#">CONTACT</a>
+                <a class="nav-item" href="#" id="nav-about">ABOUT</a>
+                <a class="nav-item" href="#" id="nav-portfolio">PORTFOLIO</a>
+                <a class="nav-item" href="#" id="nav-contact">CONTACT</a>
             </div>
         </div>
     </div>
     <div class="content">
         <div class="content-items">
             <div class="item-text">
-                <h3 class="text-color-white" style="text-align: center">Front-End Developer and UX/UI designer, with practical experience in project management, branding
-                    strategy, and creative direction; devoted to functional programming and information architecture.</h3>
+                <h3 class="text-color-white" style="text-align: center">Front-End Developer and UX/UI designer, with
+                    practical experience in project management, branding
+                    strategy, and creative direction; devoted to functional programming and information
+                    architecture.</h3>
                 <hr style="margin: 20px 10px 20px 0">
                 <h2 class="text-color-white">Web Developer - User Experience Designer - Graphic Artist</h2>
             </div>
@@ -33,15 +37,74 @@
         <div class="content-items background-color-white" style="z-index: 100">
             <h2 style="color: #888; margin: 20px">PORTFOLIO</h2>
             <ul class="img-grid">
-                <li> <img src="YMCA-Realtor-Donation-3.jpg" class="portfolio-img"></li>
-                <li> <img src="webbrandaxis.jpg" class="portfolio-img"></li>
-                <li> <img src="webcaballero.jpg" class="portfolio-img"></li>
-                <li> <img src="webgatomalo.jpg" class="portfolio-img"></li>
-                <li> <img src="webmarqas.jpg" class="portfolio-img"></li>
-                <li> <img src="panacea1.jpg" class="portfolio-img"></li>
+                <li><img src="YMCA-Realtor-Donation-3.jpg" class="portfolio-img"></li>
+                <li><img src="webbrandaxis.jpg" class="portfolio-img"></li>
+                <li><img src="webcaballero.jpg" class="portfolio-img"></li>
+                <li><img src="webgatomalo.jpg" class="portfolio-img"></li>
+                <li><img src="webmarqas.jpg" class="portfolio-img"></li>
+                <li><img src="panacea1.jpg" class="portfolio-img"></li>
             </ul>
         </div>
+
+        <div class="content-items background-color-white" style="z-index: 100">
+            <h2 style="color: #888; margin: 20px">CONTACT ME</h2>
+            <div class="contact_me">
+                <form class="contact_me_form">
+                    <div class="form-item">
+                        <input type="text" placeholder="Name" class="editText">
+                    </div>
+                    <div class="form-item">
+                        <input type="text" placeholder="Email Address" class="editText">
+                    </div>
+                    <div class="form-item">
+                        <input type="text" placeholder="Phone Number" class="editText">
+                    </div>
+                    <div class="form-item">
+                        <textarea placeholder="Message" class="textArea" rows="5"></textarea>
+                    </div>
+                </form>
+                <div class="contact_me_text">
+                    <p>Want to get in touch with me? Be it to request more info about myself or my experience, to ask
+                        for my resume, tips on how to solve your sudoku, random questions about the universe and the
+                        meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free
+                        to drop me a line anytime.</p>
+                    <p style="margin-top: 200px">I promise to reply A.S.A.P.</p>
+                    <p style="margin-top: 50px">Note: No spam/soliciting pour moi, merci :)</p>
+                </div>
+            </div>
+        </div>
     </div>
+    <footer>
+        <div class="footer-top">
+            <div class="footer-top-left">
+                <h3 class="padding-20px">ABOUT THIS PAGE</h3>
+                <p class="padding-20px">Made with <img src="coffee.png" alt="coffee">and <img src="music.png"
+                                                                                              alt="music">
+                    by <a href="https://github.com/leibown" target="_blank" style="text-decoration: none;">Leibown</a>.
+                </p>
+            </div>
+            <div class="footer-top-left">
+                <h3 class="padding-20px">AROUND THE WEB</h3>
+                <ul class="contact_information">
+                    <li><a class="contact_information_item" id="item_github"
+                           href="https://github.com/leibown"
+                           target="_blank"><img
+                            id="img_github" src="github.png"></a></li>
+                    <li><a class="contact_information_item" id="item_weibo"
+                           href="http://weibo.com/u/2277429937?refer_flag=1001030101_"
+                           target="_blank"><img
+                            id="img_weibo" src="weibo.png"></a></li>
+                    <li><a class="contact_information_item" id="item_CSDN"
+                           href="http://blog.csdn.net/m0_37184608"
+                           target="_blank"><img
+                            id="img_CSDN" src="CSDN.png"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>qlip © 2017. All Rights Reversed</p>
+        </div>
+    </footer>
 </div>
 </body>
 </html>

@@ -1,0 +1,57 @@
+body {
+    background-color: #333333;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 100%;
+}
+
+.text-box {
+    width: 450px;
+    border-radius: 5px;
+    padding: 40px 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 200px auto;
+}
+
+.main-text {
+    font-size: 30px;
+}
+
+.author {
+    align-self: flex-end;
+}
+
+.btn-share {
+    background-color: #333333;
+    border-radius: 3px;
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+}
+
+.btn-quote {
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    outline: none;
+    color: white;
+}
+
+.opacity:hover {
+    opacity: 0.8;
+}
+
+.btn-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

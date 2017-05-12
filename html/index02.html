@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Leibown</title>
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <link href="../css/style02.css" rel="stylesheet" type="text/css">
+    <script src="../js/Contacts.js"></script>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="head-container">
+            <img src="../img/qlip.png" class="icon" onclick="mutation(['Mary', 'Army'])">
+            <ul class="nav">
+                <li id="nav-about"><p class="nav-item">ABOUT</p></li>
+                <li id="nav-portfolio"><p class="nav-item">PORTFOLIO</p></li>
+                <li id="nav-contact"><p class="nav-item">CONTACT</p></li>
+            </ul>
+        </div>
+    </div>
+    <div class="content">
+        <div class="content-items">
+            <div class="item-text">
+                <h3 class="text-color-white" style="text-align: center">Front-End Developer and UX/UI designer, with
+                    practical experience in project management, branding
+                    strategy, and creative direction; devoted to functional programming and information
+                    architecture.</h3>
+                <hr style="margin: 20px 10px 20px 0">
+                <h2 class="text-color-white">Web Developer - User Experience Designer - Graphic Artist</h2>
+            </div>
+            <div>
+                <img src="../img/avatar.jpg" style="width: 250px;border-radius: 50%" class="img-margin">
+            </div>
+        </div>
+
+        <div class="content-items background-color-white" style="z-index: 100">
+            <h2 style="color: #888; margin: 20px">PORTFOLIO</h2>
+            <ul class="img-grid">
+                <li><img src="../img/YMCA-Realtor-Donation-3.jpg" class="portfolio-img"></li>
+                <li><img src="../img/webbrandaxis.jpg" class="portfolio-img"></li>
+                <li><img src="../img/webcaballero.jpg" class="portfolio-img"></li>
+                <li><img src="../img/webgatomalo.jpg" class="portfolio-img"></li>
+                <li><img src="../img/webmarqas.jpg" class="portfolio-img"></li>
+                <li><img src="../img/panacea1.jpg" class="portfolio-img"></li>
+            </ul>
+        </div>
+
+        <div class="content-items background-color-white" style="z-index: 100">
+            <h2 style="color: #888; margin: 20px">CONTACT ME</h2>
+            <div class="contact_me">
+                <form class="contact_me_form">
+                    <div class="form-item">
+                        <p class="edit-hint" id="edit-hint-name"><strong>Name</strong></p>
+                        <input type="text" placeholder="Name" class="editText" id="editText-name">
+                    </div>
+                    <div class="form-item">
+                        <p class="edit-hint" id="edit-hint-email"><strong>Email Address</strong></p>
+                        <input type="text" placeholder="Email Address" class="editText" id="editText-email">
+                    </div>
+                    <div class="form-item">
+                        <p class="edit-hint" id="edit-hint-phone"><strong>Phone Number</strong></p>
+                        <input type="text" placeholder="Phone Number" class="editText" id="editText-phone">
+                    </div>
+                    <div class="form-item">
+                        <p class="edit-hint" id="edit-hint-message"><strong>Message</strong></p>
+                        <textarea placeholder="Message" class="textArea" rows="5" id="editText-message"></textarea>
+                    </div>
+                </form>
+                <div class="contact_me_text">
+                    <p>Want to get in touch with me? Be it to request more info about myself or my experience, to ask
+                        for my resume, tips on how to solve your sudoku, random questions about the universe and the
+                        meaning of life, or even if only for some nice Fika here in stunning Toronto... just feel free
+                        to drop me a line anytime.</p>
+                    <p style="margin-top: 200px">I promise to reply A.S.A.P.</p>
+                    <p style="margin-top: 50px">Note: No spam/soliciting pour moi, merci :)</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-top">
+            <div class="footer-top-left">
+                <h3 class="padding-20px">ABOUT THIS PAGE</h3>
+                <p class="padding-20px">Made with <img src="../img/coffee.png" alt="coffee">and <img src="../img/music.png"
+                                                                                                     alt="music">
+                    by <a href="https://github.com/leibown" target="_blank" style="text-decoration: none;">Leibown</a>.
+                </p>
+            </div>
+            <div class="footer-top-left">
+                <h3 class="padding-20px">AROUND THE WEB</h3>
+                <ul class="contact_information">
+                    <li><a class="contact_information_item" id="item_github"
+                           href="https://github.com/leibown"
+                           target="_blank"><img
+                            id="img_github" src="../img/github.png"></a></li>
+                    <li><a class="contact_information_item" id="item_weibo"
+                           href="http://weibo.com/u/2277429937?refer_flag=1001030101_"
+                           target="_blank"><img
+                            id="img_weibo" src="../img/weibo.png"></a></li>
+                    <li><a class="contact_information_item" id="item_CSDN"
+                           href="http://blog.csdn.net/m0_37184608"
+                           target="_blank"><img
+                            id="img_CSDN" src="../img/CSDN.png"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>qlip © 2017. All Rights Reversed</p>
+        </div>
+    </footer>
+</div>
+</body>
+</html>

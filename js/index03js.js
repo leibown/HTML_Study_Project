@@ -36,7 +36,6 @@ function getQuote() {
         randomColor = Math.floor(Math.random() * colors.length);
     }
     color = randomColor;
-
     position = randomPosition;
     $("html body").animate({
         backgroundColor: colors[randomColor],
